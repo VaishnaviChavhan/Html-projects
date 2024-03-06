@@ -1,0 +1,47 @@
+.menu {
+    align-items: center;
+    display: inline-block;
+    border: 2px blue;
+    background-color: brown;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+
+    overflow-x: scroll;
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+.h{
+    width: 1000px;
+}
+
+.h::first-letter {
+    font-size: 100px;
+    color: mediumorchid;
+}
+  
+
+.h img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 2em;
+}
+
+.p {
+    width: 1000px;
+}
+.p::first-letter {
+    font-size: 100px;
+    color: blue;
+}
+  
+
+.p img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+}
